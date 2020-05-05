@@ -1,0 +1,10 @@
+server:
+  port: 80
+  servlet:
+    context-path: /is
+
+#时间格式
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
